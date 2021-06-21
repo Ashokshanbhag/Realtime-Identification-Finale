@@ -1,0 +1,47 @@
+<html> 
+     <head>  
+
+            <title>Realtime Image Identification</title> 
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> 
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+            <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+        </head> 
+         <body background="background.jpg">
+
+            <center>
+            <h1 class="btn btn-info heading animate__animated animate__bounceInUp" >Realtime Image Identification Webapp</h1>
+            <hr>
+            <center>
+                 <div class="col-lg-6 col-md-6 col-sm-6 col-xm-12 heading_div">
+                     <h3>This Model is Trained on--
+                         <br>
+                         <br>
+                         <div class="btn btn-warning heading_div2">
+                             Phone | Water Bottle | Spoon | Gun
+                            </div>
+                        </div>
+
+                        <h2 class="btn btn-warning">Object:<span id="object"></span> </h2>
+                        
+                        <br>
+                        
+                        <h2 class="btn btn-warning">Accuracy: <span id="accuracy"></span></h2>
+
+                    </center>
+                </h3>
+                <br>
+            </center>
+            <div class="copy_right_footer">
+
+                Developed By Ashok. If anyone says otherwise, I will find you. Dont challenge me.
+            
+            </div>
+            <script src="main.js"></script>
+        </body>
+</html>
